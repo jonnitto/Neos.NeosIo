@@ -11,7 +11,7 @@
 # in the same section and render them below, again only is an anchor name is set.
 ##
 prototype(Neos.NeosIo:DocumentationPageSubMenu) < prototype(Neos.Neos:Menu) {
-    @class = 'Neos\\NeosIo\\Fusion\\DocumentationPageSubMenuImplementation'
+    //@class = 'Neos\\NeosIo\\Fusion\\DocumentationPageSubMenuImplementation'
     templatePath = 'resource://Neos.NeosIo/Private/Templates/FusionObjects/DocumentationPageSubMenu.html'
 
     itemCollection = Neos.Fusion:RawCollection {
