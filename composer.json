@@ -10,8 +10,8 @@
         }
     },
     "require": {
-        "neos/neos-development-collection": "dev-master as 4.3",
-        "neos/flow-development-collection": "dev-master as 5.3",
+        "neos/neos-development-collection": "4.3.x-dev",
+        "neos/flow-development-collection": "5.3.x-dev",
         "neos/neosio": "*",
         "neos/flowneosio": "*",
         "neos/neosio-featurelist": "*",
@@ -19,12 +19,13 @@
         "neos/neosconio": "*",
 
         "flownative/google-cloudstorage": "^4.0",
-        "rokka/imagine-vips": "^0.9",
 
-        "neos/contentrepository-development-collection": "dev-master",
+        "neos/contentrepository-development-collection": "dev-sk-wip",
         "neos/content-repository-dimensionspace": "dev-master",
         "neos/event-sourcing": "dev-master",
-        "neos/neos-ui": "dev-event-sourced-patch as dev-master"
+        "neos/neos-ui": "dev-event-sourced-patch as dev-master",
+        "sandstorm/plumber": "dev-master",
+        "sandstorm/phpprofiler": "dev-master"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
